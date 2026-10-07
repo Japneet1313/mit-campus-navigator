@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT Campus Navigator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🏫 MIT Campus Navigator</h1>
+        <p>Your smart guide to the campus</p>
+    </header>
+
+    <main>
+
+        <div class="search-box">
+            <input type="text" id="search"
+                   placeholder="Search classroom, lab, library...">
+            <button onclick="searchLocation()">Search</button>
+        </div>
+
+        <section class="cards">
+
+            <div class="card">
+                <h2>🗺️</h2>
+                <h3>Campus Map</h3>
+                <p>Find your way around the campus.</p>
+                <button>Open Map</button>
+            </div>
+
+            <div class="card">
+                <h2>📚</h2>
+                <h3>Library</h3>
+                <p>Find the library and available seats.</p>
+                <button>Find Library</button>
+            </div>
+
+            <div class="card">
+                <h2>🔬</h2>
+                <h3>Labs</h3>
+                <p>Locate labs and classrooms.</p>
+                <button>Explore Labs</button>
+            </div>
+
+            <div class="card">
+                <h2>🍴</h2>
+                <h3>Canteen</h3>
+                <p>Find food and refreshment areas.</p>
+                <button>Find Canteen</button>
+            </div>
+
+        </section>
+
+        <div id="result"></div>
+
+    </main>
+
+    <footer>
+        <p>MIT Campus Navigator | Student Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    </body>
+    </html>
